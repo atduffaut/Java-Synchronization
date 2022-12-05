@@ -1,6 +1,10 @@
 public class Mars implements Location {
 
-    public void nextStep() {
+    public String retrieveName() {
+        return "Ends quarantine and journey => IN MARS!!!";
+    }
+
+    public void nextStep(Crew c) {
 
     }
 }

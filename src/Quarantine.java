@@ -1,7 +1,10 @@
 public class Quarantine implements Location {
 
 
-    public void nextStep() {
+    public String retrieveName() {
+        return "Staying in quarantine for 10 days";
+    }
+    public void nextStep(Crew c) {
 
     }
 }

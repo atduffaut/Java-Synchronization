@@ -1,3 +1,4 @@
+
 public interface Crew {
-    public void printName();
+    public void updateLocation(Location loc);
 }

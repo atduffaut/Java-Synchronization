@@ -29,5 +29,8 @@ public class Main {
         println("Number of astronomers: " + numAstronomers + ". Number of astrologers: " + numAstrologers);
 
         Spaceport s = new Spaceport(numAstronomers, numAstrologers);
+        for (int i = 1; i < 8; i++) {
+            (new Astronomer(i, s)).start();
+        }
     }
 }
