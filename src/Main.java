@@ -27,5 +27,7 @@ public class Main {
         }
 
         println("Number of astronomers: " + numAstronomers + ". Number of astrologers: " + numAstrologers);
+
+        Spaceport s = new Spaceport(numAstronomers, numAstrologers);
     }
 }
