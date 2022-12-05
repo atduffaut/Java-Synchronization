@@ -1,15 +1,18 @@
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Spaceport implements Location {
     private Shuttle s;
-    private int numAstronomers;
-    private int numAstrologers;
-    static String analysis;
+    static int numAstronomers;
+    static int numAstrologers;
     static Semaphore shipSpace = new Semaphore(NUM_VOYAGERS);
+    static ReentrantLock shuttleLock = new ReentrantLock();
+    Shuttle shuttle;
 
     public Spaceport(int astronomers, int astrologers) {
-        this.numAstrologers = astrologers;
-        this.numAstronomers = astronomers;
+        numAstrologers = astrologers;
+        numAstronomers = astronomers;
+        shuttle = new Shuttle(5, 0);
     }
 
     public String retrieveName() {
@@ -17,6 +20,9 @@ public class Spaceport implements Location {
     }
 
     public void nextStep(Crew c) {
-        c.updateLocation(new Shuttle());
+        c.updateLocation(shuttle);
+        if (!shuttle.isAlive()) {
+            shuttle.start();
+        }
     }
 }

@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4b842d4-4db1-4f23-94a7-4aedb89f83ca" name="Changes" comment="Defining objects and creating threads">
-      <change afterPath="$PROJECT_DIR$/src/Earth.java" afterDir="false" />
+    <list default="true" id="d4b842d4-4db1-4f23-94a7-4aedb89f83ca" name="Changes" comment="Creating initial semaphores and locks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Astrologer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Astrologer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Astronomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Astronomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Crew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Crew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quarantine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quarantine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Shuttle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shuttle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Spaceport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spaceport.java" afterDir="false" />
     </list>
@@ -92,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670206081534</updated>
-      <workItem from="1670206082571" duration="11642000" />
+      <workItem from="1670206082571" duration="17909000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670206424539</created>
@@ -115,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670218976442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creating initial semaphores and locks">
+      <created>1670222912504</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670222912504</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +136,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Updating main switch" />
     <MESSAGE value="Defining objects and creating threads" />
-    <option name="LAST_COMMIT_MESSAGE" value="Defining objects and creating threads" />
+    <MESSAGE value="Creating initial semaphores and locks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating initial semaphores and locks" />
   </component>
 </project>
